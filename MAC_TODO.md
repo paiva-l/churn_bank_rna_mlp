@@ -52,11 +52,11 @@ Isso faz automaticamente:
 
 - [ ] A primeira célula diz "✅ Rodando num Mac com Apple Silicon".
 - [ ] Nenhuma célula com erro.
-- [ ] Os textos de análise continuam batendo com os números. Os resultados podem
-      variar um pouco em relação ao PC (a GPU muda levemente os cálculos). Se a
-      melhor configuração (Parte 4) ou o tratamento escolhido (Parte 5) mudarem,
-      revise os textos dessas partes.
-- [ ] A Parte 7 (benchmark) mostra o MLX rodando na GPU. Comente o resultado.
+- [ ] Os resultados podem variar um pouco em relação ao PC (a GPU muda levemente
+      os cálculos). Os textos de análise das Partes 4 a 7 são gerados a partir dos
+      números, então se ajustam sozinhos: basta dar uma lida para conferir.
+- [ ] A Parte 7 (benchmark) mostra o MLX rodando na GPU. O comentário também é
+      gerado automaticamente; acrescente uma observação sua, se quiser.
 
 ## 5. Montar a entrega
 
