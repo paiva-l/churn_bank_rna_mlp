@@ -1,0 +1,35 @@
+{
+  "configuracao": {
+    "ocultas": [
+      128,
+      64,
+      32
+    ],
+    "ativacao": "leaky_relu",
+    "lr": 0.001,
+    "dropout": 0.4,
+    "l2": 0.001
+  },
+  "tratamento_desbalanceamento": "Sem tratamento",
+  "limiares": {
+    "MLP PyTorch": 0.2541305422782898,
+    "MLP MLX": 0.2744010388851166,
+    "Regressão Logística": 0.2801135182380676
+  },
+  "atributos": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "EstimatedSalary",
+    "Geography_France",
+    "Geography_Germany",
+    "Geography_Spain",
+    "Gender_Male",
+    "HasCrCard",
+    "IsActiveMember"
+  ],
+  "treinado_em": "Linux x86_64",
+  "dispositivo_mlx": "Device(cpu, 0)"
+}

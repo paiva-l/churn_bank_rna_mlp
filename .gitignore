@@ -1,0 +1,10 @@
+# Ambiente virtual (recriar com requirements.txt em cada máquina)
+.venv/
+
+# Arquivos temporários
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Pacote de entrega (gerado no final)
+*.zip
