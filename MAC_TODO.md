@@ -1,4 +1,4 @@
-# ⚠️ MAC: o que fazer no Mac com chip M
+# MAC: o que fazer no Mac com chip M
 
 No PC (Ubuntu/WSL), o notebook já roda do início ao fim, mas o MLX usa só a CPU.
 No Mac, o MLX usa a GPU (Metal) automaticamente, sem mudar nada no código.
